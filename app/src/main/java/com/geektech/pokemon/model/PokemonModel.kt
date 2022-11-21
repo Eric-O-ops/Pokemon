@@ -1,0 +1,13 @@
+package com.geektech.pokemon.model
+
+import com.geektech.pokemon.base.IBaseDifUtil
+import com.google.gson.annotations.SerializedName
+
+data class PokemonModel(
+
+    @SerializedName("name")
+    override val name: String,
+
+    @SerializedName("url")
+    val url: String?
+): IBaseDifUtil
