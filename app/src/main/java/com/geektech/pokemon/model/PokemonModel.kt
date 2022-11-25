@@ -1,6 +1,6 @@
 package com.geektech.pokemon.model
 
-import com.geektech.pokemon.base.IBaseDifUtil
+import com.geektech.pokemon.base.IBaseDiffutil
 import com.google.gson.annotations.SerializedName
 
 data class PokemonModel(
@@ -10,4 +10,5 @@ data class PokemonModel(
 
     @SerializedName("url")
     val url: String?
-): IBaseDifUtil
+
+): IBaseDiffutil

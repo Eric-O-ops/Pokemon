@@ -1,5 +1,5 @@
 package com.geektech.pokemon.base
 
-interface IBaseDifUtil {
+interface IBaseDiffutil {
     val name: String
 }
